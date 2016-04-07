@@ -1,0 +1,24 @@
+/* Inserta tu CSS aqui */
+/*static -- relative o absolute
+ -- relative*/
+body>div {
+	height:200px;
+	width:200px;
+	background:#FF0000;
+	position: static;
+	/*padding: 50px*/	
+}
+#morado{
+	height: 100px;
+	width: 100px;
+	background: purple;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+#amarillo{
+	background: #FFFF00;
+	width:50px;
+	height:50px;
+	position:absolute;
+}
